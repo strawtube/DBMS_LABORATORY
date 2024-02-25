@@ -1,8 +1,7 @@
 # DATA BASE MANAGEMENT SYSTEMS LABORATORY
-Collection of all SQL Exercises covered in the DBMS Laboratory syllabus for CSE and ISE branches of engineering under VTU.
 
 ## EXERCISE 1
-### LIBRARY DATABASE
+### Library Database
 **BOOK (Book_id, Title, Publisher_Name, Pub_Year)
 BOOK_AUTHORS (Book_id, Author_Name)
 PUBLISHER (Name, Address, Phone)
@@ -18,7 +17,7 @@ LIBRARY_PROGRAMME (Programme_id, Programme_Name, Address)**
 **5.** Create a view of all books and its number of copies that are currently available in the Library.
 
 ## EXERCISE 2
-### ORDERS DATABASE
+### Orders Database
 **SALESMAN(Salesman_id,Name, City, Commission)
 CUSTOMER(Customer_id, Cust_Name, City, Grade, Salesman_id)
 ORDERS(Ord_No, Purchase_Amt, Ord_Date, Customer_id, Salesman_id)**
@@ -31,7 +30,7 @@ ORDERS(Ord_No, Purchase_Amt, Ord_Date, Customer_id, Salesman_id)**
 **5.** Demonstrate the DELETE operation by removing salesman with id 1000. All his orders must also be deleted.
 
 ## EXERCISE 3
-### MOVIE DATABASE
+### Movie Database
 **ACTOR(Act_id, Act_Name, Act_Gender)
 DIRECTOR(Dir_id, Dir_Name, Dir_Phone)
 MOVIES(Mov_id, Mov_Title, Mov_Year, Mov_Lang, Dir_id)
@@ -46,7 +45,7 @@ RATING(Mov_id, Rev_Stars)**
 **5.** Update rating of all movies directed by ‘Steven Spielberg’ to 5.
 
 ## EXERCISE 4
-### COLLEGE DATABASE
+### College Database
 **STUDENT(USN, SName, Address, Phone, Gender)
 SEMSEC(SSID, Sem, Sec)
 CLASS(USN, SSID)
@@ -65,7 +64,7 @@ If FinalIA< 12 then CAT = ‘Weak’
 Give these details only for 8th semester A, B, and C section students._
 
 ## EXEECISE 5
-### COMPANY DATABASE
+### Company Database
 **EMPLOYEE(SSN, Name, Address, Sex, Salary, SuperSSN, DNo)
 DEPARTMENT(DNo, DName, MgrSSN, MgrStartDate)
 DLOCATION(DNo,DLoc)
