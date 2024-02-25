@@ -2,7 +2,7 @@
 
 ## EXERCISE 1
 ### Library Database
-**BOOK (Book_id, Title, Publisher_Name, Pub_Year)
+**BOOK (Book_id, Title, Publisher_Name, Pub_Year)** <br>
 BOOK_AUTHORS (Book_id, Author_Name)
 PUBLISHER (Name, Address, Phone)
 BOOK_COPIES (Book_id, Programme_id, No_of_Copies)
